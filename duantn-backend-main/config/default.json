@@ -1,0 +1,7 @@
+{
+  "vnp_TmnCode": "JTW3PY8B",
+  "vnp_HashSecret": "XIRQEFSFIMTPDSTCQMZDAIFMYRALRBYD",
+  "vnp_Url": "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html",
+  "vnp_Api": "https://sandbox.vnpayment.vn/merchant_webapi/api/transaction",
+  "vnp_ReturnUrl": "http://jaguarshop.live/success/"
+}

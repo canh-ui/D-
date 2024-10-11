@@ -1,0 +1,23 @@
+//- success.jade
+extends layout
+
+block content
+    if code == "00"
+        p(style="text-align: center") GD thành công
+        p(style="text-align: center") Số tiền thanh toán: #{vnp_Amount}
+        p(style="text-align: center") Mã GD: #{vnp_TxnRef}
+        p(style="text-align: center") Mã Ngân hàng: #{vnp_BankCode}
+        p(style="text-align: center") Mã GD của Ngân hàng: #{vnp_BankTranNo}
+        p(style="text-align: center") Thời gian thanh toán: #{vnp_PayDate}
+        p(style="text-align: center") Mã phản hồi của Ngân hàng: #{vnp_ResponseCode}
+        p(style="text-align: center") Mã GD của VNPAY: #{vnp_TransactionNo}
+        p(style="text-align: center") Mã GD của Người bán: #{vnp_TxnRef}
+        p(style="text-align: center") Mã GD của Người mua: #{vnp_OrderInfo}
+  
+
+
+    else
+        p(style="text-align: center; color: red") GD thất bại
+
+    p(style="text-align: center")
+        a.btn.btn-default(href='/order') Về danh sách
